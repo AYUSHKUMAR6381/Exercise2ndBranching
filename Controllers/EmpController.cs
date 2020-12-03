@@ -18,7 +18,7 @@ namespace WebAppExercise2nd_GitHub_Branches_03_12.Controllers
             new Emp{EId=5,EName="Jayant",EDesig="COO",ESalary=5000 }
         };
         public IActionResult Index()
-        {
+        { 
             return View(eList);
         }
     }
